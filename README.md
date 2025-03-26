@@ -2,4 +2,4 @@
 
 ![screenshot](./README%20ASSets/screenshot.png)
 
-- Theme : Tokyo Night
+- Theme : Catppucin Mocha
