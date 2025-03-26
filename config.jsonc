@@ -20,7 +20,7 @@
     },
 
     "color" : {
-      "separator": "light_blue"
+      "separator": "magenta"
     },
 
     "constants": [
@@ -53,17 +53,20 @@
 
     {
       "type": "kernel",
-      "key": "  Kernel    "
+      "key": "  Kernel    ",
+      "keyColor": "yellow"
     },
 
     {
       "type": "shell",
-      "key": "  Shell     "
+      "key": "  Shell     ",
+      "keyColor": "green"
     },
 
     {
       "type": "terminal",
-      "key": "󰘳  Terminal  "
+      "key": "󰘳  Terminal  ",
+      "keyColor": "green"
     },
 
     "break",
@@ -78,41 +81,48 @@
     {
       "type": "display",
       "key": "󰍹  Monitor   ",
-      "format": "{width} x {height} @ {refresh-rate} {inch}″"
-      //"compactType": "scaled-with-refresh-rate"
+      "format": "{width} x {height} @ {refresh-rate}Hz | {inch}",
+      "keyColor": "blue"
+      
     },
 
     {
       "type": "board",
       "key": "  Mother    ",
-      "format": "Asus {name}"
+      "format": "Asus {name}",
+      "keyColor": "blue"
     },
 
     {
       "type": "cpu",
       "key": "  CPU       ",
-      "format": "{name}"
+      "format": "{name}",
+      "keyColor": "red"
     },
 
     {
       "type": "gpu",
       "key": "  GPU       ",
-      "format": "{name}"
+      "format": "{name}",
+      "keyColor": "red"
     },
 
     {
       "type": "memory",
-      "key": "  RAM       "
+      "key": "  RAM       ",
+      "keyColor": "green"
     },
 
     {
       "type": "packages",
-      "key": "󰏖  Packages  "
+      "key": "󰏖  Packages  ",
+      "keyColor": "yellow"
     },
 
     {
       "type": "uptime",
-      "key": "󰥔  uptime    "
+      "key": "󰥔  uptime    ",
+      "keyColor": "magenta"
     },
 
     "break",
@@ -128,12 +138,14 @@
       "type": "media",
       "key": "  Song      ",
       "format": "{title}",
+      "keyColor": "red"
     },
 
     {
       "type": "media",
-      "key": "             ",
+      "key": "  Artist    ",
       "format": "{artist}",
+      "keyColor": "red"
     },
 
     "break",
